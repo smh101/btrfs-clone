@@ -26,6 +26,7 @@ GNU General Public License for more details.**
    "generation" (default), or "bruteforce"; see below.
  * `--toplevel`: don't try to write the target toplevel subvolume, see below.
  * `--btrfs`: set full path to "btrfs" executable.
+ * `--exclude`: a comma separated list of subvolume ids to be skipped during cloning. (example: 257,821,750).
 
 ## Example for real-world use:
 
